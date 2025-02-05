@@ -1,4 +1,4 @@
-    const Navbar = () => {
+    const Navbar = (txt: string) => {
         return (<>
             <div className="navbar bg-base-100">
             <div className="flex-none">
@@ -17,7 +17,7 @@
             </button>
             </div>
             <div className="flex-1">
-            <a className="btn btn-ghost text-xl">daisyUI</a>
+            <a className="btn btn-ghost text-xl">{txt}</a>
             </div>
             <div className="flex-none">
             <button className="btn btn-square btn-ghost">
