@@ -1,14 +1,13 @@
 import Image from "next/image";
+import Link from "next/link"
 
 export default function Home() {
   return (
     <>
       <h1>
-        Ciao
+        Prodotti
       </h1>
-      <button className="">
-        Tailwind Button
-      </button>
+      <Link href="./">Home</Link>
     </>
   );
 }
